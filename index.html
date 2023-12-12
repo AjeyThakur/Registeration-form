@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h4>Application form for</h4>
+        <h1>Super Champ Competition</h1>
+        <h4>conducted by:-</h4>
+        <h2>Shikshit Jiavn Surakshit Jiavn Society, Hisar <span>(Reg No.01676)</span> </h2>
+        <h2>APPLICATION FORM</h2>
+        <h2>M. 7988223255, 9050851556, 9728810110</h2>
+    </header>
+    <div class="container photo-box-container">
+        <div class="photo-box">
+            <img src="" alt="Passport Photo">
+        </div>
+    </div>
+    <h4 class="form-heading">Application should be filled in English & Capital Letters.</h4>
+    <h4 class=" container registerNo">Registration No. :</h4>
+    <form class="container">
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+            <div class="col">
+                <div data-mdb-input-init class="form-outline">
+                    <input type="text" id="form6Example1" class="form-control" />
+                    <label class="form-label" for="form6Example1">First name</label>
+                </div>
+            </div>
+            <div class="col">
+                <div data-mdb-input-init class="form-outline">
+                    <input type="text" id="form6Example2" class="form-control" />
+                    <label class="form-label" for="form6Example2">Last name</label>
+                </div>
+            </div>
+        </div>
+        <!-- Text input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="fatherName" class="form-control" />
+            <label class="form-label" for="fatherName">Father's/Husband's Name</label>
+        </div>
+        <!-- Text input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="motherName" class="form-control" />
+            <label class="form-label" for="motherName">Mother's Name</label>
+        </div>
+
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+            <div class="col">
+                <div data-mdb-input-init class="form-outline">
+                    <input type="date" id="dateOfBirth" class="form-control" />
+                    <label class="form-label" for="dateOfBirth">Select Date of Birth</label>
+                </div>
+            </div>
+            <div class="col">
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="number" id="whatsappNo" class="form-control" />
+                    <label class="form-label" for="whatsappNo">Whatsapp No</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Email input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+            <input type="email" id="form6Example5" class="form-control" />
+            <label class="form-label" for="form6Example5">Email</label>
+        </div>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+            <div class="col">
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="number" id="mobileNo" class="form-control" />
+                    <label class="form-label" for="mobileNo">Mobile No</label>
+                </div>
+            </div>
+            <div class="col">
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="number" id="othersMobileNo" class="form-control" />
+                    <label class="form-label" for="othersMobileNo">Others Mobile No</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 column grid layout with text inputs -->
+        <div class="row mb-4">
+            <div class="col">
+                <!-- qualification check  -->
+                <h4 class="qualification">Qualification</h4>
+
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="6thClass" />
+                    <label class="form-check-label" for="6thClass">6th</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="7thClass" />
+                    <label class="form-check-label" for="7thClass">7th</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="8thClass" />
+                    <label class="form-check-label" for="8thClass">8th</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="otherQualification"
+                        value="otherQualification" />
+                    <label class="form-check-label" for="otherQualification">Other</label>
+                </div>
+            </div>
+            <div class="col">
+                <!-- Radio  -->
+                <h4 class="feeMethod">Fee method</h4>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="feeMethod" value="online" />
+                    <label class="form-check-label" for="inlineRadio1">online</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="feeMethod" value="offline" />
+                    <label class="form-check-label" for="inlineRadio2">offline</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+            <div class="col-2">
+                <div data-mdb-input-init class="form-outline">
+                    <!-- Gender select -->
+                    <div class="btn-group">
+                        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked />
+                        <label class="btn btn-secondary" for="option1" data-mdb-ripple-init>Male</label>
+
+                        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" />
+                        <label class="btn btn-secondary" for="option2" data-mdb-ripple-init>Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-mdb-input-init class="form-outline">
+                    <input type="text" id="nationality" class="form-control" />
+                    <label class="form-label" for="nationality">Nationality</label>
+                </div>
+            </div>
+            <div class="col">
+                <div data-mdb-input-init class="form-outline">
+                    <input type="text" id="fatherOccupation" class="form-control" />
+                    <label class="form-label" for="fatherOccupation">Father Occupation</label>
+                </div>
+            </div>
+        </div>
+        <h3>Applicant's address :-</h3>
+        <!-- Text input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="village" class="form-control" />
+            <label class="form-label" for="village">Village <span style="font-size: smaller;">(Mandatory)</span></label>
+        </div>
+        <!-- Text input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="postOffice" class="form-control" />
+            <label class="form-label" for="postOffice">Post Office & Tehsil</label>
+        </div>
+        <!-- Text input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="district" class="form-control" />
+            <label class="form-label" for="district">District
+        </div>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+            <div class="col-2">
+                <div data-mdb-input-init class="form-outline">
+                    <input type="number" id="pinCode" class="form-control" />
+                    <label class="form-label" for="pinCode">PIN Code <span
+                            style="font-size: smaller;">(Mandatory)</span></label>
+                </div>
+            </div>
+            <div class="col-6">
+                <div data-mdb-input-init class="form-outline">
+                    <input type="text" id="state" class="form-control" />
+                    <label class="form-label" for="state">State <span
+                            style="font-size: smaller;">(Mandatory)</span></label>
+                </div>
+            </div>
+        </div>
+        <h4>Self Declaration :</h4>
+        <p class="selfDeclaration">I hereby declare that the information above is true and correct to best of knowledge
+            and i take full responsibility for its correctness.</p>
+
+        <div class="signature">
+            <span class="sign">Guardian Signature</span>
+            <span class="sign">Child Signature</span>
+            <span class="sign">Verified from school with Stamp Signature</span>
+            <span>
+                <label for="dated">Date:</label>
+                <input type="date" id="dated" name="dated">
+            </span>
+        </div>
+        <hr>
+    </form>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+</body>
+
+</html>
