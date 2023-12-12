@@ -58,7 +58,7 @@ img {
     object-fit: cover;
 }
 
-.form-heading{
+.form-heading {
     text-align: center;
     margin-right: 120px;
     font-size: 1rem
@@ -70,22 +70,33 @@ img {
     margin-bottom: 2rem;
 }
 
-.qualification, .feeMethod{
+.qualification,
+.feeMethod {
     display: inline-block;
     font-size: larger;
     /* margin: 0 1rem 1rem 0; */
 }
 
-.selfDeclaration{
+.selfDeclaration {
     text-align: center;
 }
 
-.signature{
+.signature {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-top: 5rem;
 }
+div span {
+    margin: 1rem;
+}
+@media only screen and (max-width: 1000px) {
+    .signature {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
 
-.sign{
+.sign {
     border-top: 1px solid black;
 }
