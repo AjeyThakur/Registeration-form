@@ -100,3 +100,7 @@ div span {
 .sign {
     border-top: 1px solid black;
 }
+
+.container .row .col-md{
+    padding: 1rem ;
+}
